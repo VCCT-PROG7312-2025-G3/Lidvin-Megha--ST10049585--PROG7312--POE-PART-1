@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Municipal Report Issues</h1>
+    <p class="lead">
+        This platform is designed to provide citizens with a simple and effective way to interact with their municipality.
+        By reporting issues directly online, residents can help improve their community while ensuring transparency and accountability
+        in the way service requests are managed.
+    </p>
+</div>
+
+<div class="card shadow-lg mt-4">
+    <div class="card-body">
+        <h2 class="card-title">Main Menu</h2>
+        <p>
+            Please select from the options below. Currently, only the "Report Issues" feature is available, which allows me to submit
+            detailed information about challenges such as potholes, water leaks, power outages, and other service-related concerns.
+            My reports will be captured and forwarded to the relevant municipal departments for review and resolution.
+        </p>
+        <ul class="list-unstyled">
+            <li class="mb-2">
+                <a class="btn btn-primary w-100" asp-controller="Report" asp-action="Index">Report Issues</a>
+                <p class="description">
+                    Submit new issues in your neighborhood. Provide a description, location details, and optional attachments to
+                    help municipal staff resolve the matter quickly.
+                </p>
+            </li>
+            <li class="mb-2">
+                <button class="btn btn-secondary w-100" disabled>Local Events & Announcements (Coming soon)</button>
+                <p class="description">
+                    This feature will allow to stay updated on community activities, municipal announcements, and
+                    important local events. It is currently under development.
+                </p>
+            </li>
+            <li class="mb-2">
+                <button class="btn btn-secondary w-100" disabled>Service Request Status (Coming soon)</button>
+                <p class="description">
+                    Once available, this option will let me track the progress of my submitted requests,
+                    providing real-time updates and estimated resolution times.
+                </p>
+            </li>
+        </ul>
+        <p class="text-muted">Only Report Issues is available for now.</p>
+    </div>
+</div>

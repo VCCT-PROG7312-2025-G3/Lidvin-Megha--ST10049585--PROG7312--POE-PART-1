@@ -1,0 +1,98 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fb;
+    color: #222;
+}
+
+.site-header {
+    background: #2a6f97;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 8px 0;
+}
+
+.btn {
+    background: #2a6f97;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+    .btn.secondary {
+        background: #6c757d;
+    }
+
+    .btn.disabled {
+        opacity: 0.6;
+    }
+
+.form-row {
+    margin-bottom: 12px;
+}
+
+    .form-row label {
+        display: block;
+        margin-bottom: 4px;
+        font-weight: bold;
+    }
+
+    .form-row input[type="text"], .form-row select, .form-row textarea {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+.engagement {
+    margin-top: 16px;
+}
+
+.alert {
+    background: #ffdede;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.field-validation {
+    color: red;
+    font-size: 0.9em;
+}
