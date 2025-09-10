@@ -595,7 +595,7 @@ Visual Studio 2022+ or VS Code
 How to Build and Run
 
 Create a new folder and copy all project files (preserve folder structure)
-From terminal, cd into MunicipalReportIssues.Mvc
+From terminal, cd into PROG7312-POEPART1
 Run dotnet restore to restore packages
 Run dotnet run to start the app
 Open the URL shown in the console (typically http://localhost:7101)
