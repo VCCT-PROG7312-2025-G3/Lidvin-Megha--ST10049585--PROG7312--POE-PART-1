@@ -599,3 +599,21 @@ From terminal, cd into PROG7312-POEPART1
 Run dotnet restore to restore packages
 Run dotnet run to start the app
 Open the URL shown in the console (typically http://localhost:7101)
+
+Key Features
+✅ Requirements Met
+
+Main menu presented on startup
+Only Report Issues enabled (other options disabled)
+Report Issues page contains Location, Category, Description, File attachment, Submit button
+Engagement feature implemented (rotating messages + progress bar)
+Data stored in appropriate data structure (List<Issue>)
+Complete README and instructions included
+
+Design Choices
+
+Uses simple in-memory store (IssueStore) for easy grading and no DB setup required
+Engagement feature: Rotating encouraging messages and animated progress bar to motivate users
+File upload functionality using IFormFile with safe file handling
+Form validation with server-side validation and error display
+Clean MVC architecture with proper separation of concerns
